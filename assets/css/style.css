@@ -1159,8 +1159,10 @@ section {
   background: url("../img/3.webp") no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed; /* This creates the parallax effect */
   position: relative;
 }
+
 
 .testimonials::before {
   content: "";
